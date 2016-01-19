@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Front page</title>
+	<link rel="stylesheet" href="css/custom-bootstrap.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+	
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top navbar-xs">
+    <div class="container">
+      <div class="navbar-header navbar-right">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse navbar-right">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav> <!-- end fixed navbar -->
+
+  <!-- Begin page content -->
+  <div class="container">
+    <!-- Header where logo located -->
+    <div class="row" id="header">
+      <div class="page-header">
+        <h1>Page Header</h1>
+      </div>
+    </div> <!-- End div.header -->
+
+    <!-- Second Menu apart from top menu -->
+    <div class="row visible hidden-xs" id="navmenu">
+      <nav>
+        <ul class="nav nav-justified">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Downloads</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div> <!-- End div.menu -->
+
+    <!-- Breadcrum to show curren page -->
+    <div class="row" id="breadcrum">
+      <ol class="breadcrumb">
+        <li><a href="#">Medicine</a></li>
+        <li><a href="#">Department</a></li>
+        <li class="active">Bio</li>
+      </ol>
+    </div> <!-- End div.breadcrum -->
+
+    <!-- Actual Content area -->
+    <div class="row" id="profile">
+      <h2 class="subhead">Showing 21-40 of 109 Results</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Person 1             
+          <a href="/profiles/mark-davis">
+              <img style="width:150px; height:150px;" src="https://cap.stanford.edu/profiles/viewImage?profileId=4282&amp;type=square" alt="Mark M. Davis" data-empty-src="/profiles/images/profile-large-blank.png">
+          </a>
+        </li>
+        <li class="list-group-item">Person 2</li>
+        <li class="list-group-item">Person 3</li>
+      </ul>
+      <ul class="unstyled list-items">
+        <li>
+          <div class="mini-profile media">
+            <a href="/profiles/mark-davis">
+              <img class="pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4282&amp;type=square" alt="Mark M. Davis" data-empty-src="/profiles/images/profile-large-blank.png">
+            </a>
+            <div class="media-body">
+              <a href="/profiles/mark-davis" class="media-heading">
+                <h4>Mark M. Davis</h4>
+                <h5>The Burt and Marion Avery Family Professor</h5>
+              </a>
+
+              <p class="hidden-phone collapse-partial" data-toggle="collapsePartial" data-lines="4"><span style="height: 36px;" class="line-clamp">
+                <strong class="title">Current Research and Scholarly Interests</strong>
+                Molecular mechanisms of lymphocyte recognition and differentiation; Systems immunology and human immunology; vaccination and infection.
+                <a style="display: inline;" class="toggle-button ellipsis-lastline collapsed" data-bypass=""><i class="icon-caret-right"></i>More</a></span></p>
+              </div>
+            </div>
+          </li>
+          <li>
+          <div class="mini-profile media">
+            <a href="/profiles/laura-davison">
+              <img data-src-replaced="1" class="pull-left" src="/profiles/images/profile-large-blank.png" alt="Laura Davison" data-empty-src="/profiles/images/profile-large-blank.png">
+            </a>
+            <div class="media-body">
+              <a href="/profiles/laura-davison" class="media-heading">
+                <h4>Laura Davison</h4>
+                <h5>Postdoctoral Research fellow, Microbiology and Immunology</h5>
+              </a>
+              <p class="hidden-phone collapse-partial in" data-toggle="collapsePartial" data-lines="4"><span style="height: auto;" class="line-clamp">
+                <strong class="title"></strong>
+
+                <a style="display: none;" class="toggle-button" data-bypass=""><i class="icon-caret-up"></i>Hide</a></span></p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul class="pagination">
+          <li><a href="#">first</a></li>
+        </ul>
+        <ul class="pagination">
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+        </ul>
+        <ul class="pagination">
+          <li><a href="#">last</a></li>
+        </ul>
+        <ul class="pagination pull-right">
+          <li><a href="#">20 Result/page</a></li>
+        </ul>
+      </div> <!-- End div.profile -->
+    </div> <!-- End container -->
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <div>
+        I am some centered shrink-to-fit content! <br />
+        tum te tum
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $.get('http://localhost/simple_pha', function(data){
+        //Loop through each row and output the data
+        $(data).each(function(){
+            $('#rows').append('<li>'+this.name+'</li>');
+        });
+      });     
+    </script>
+  </body>
+  </html>

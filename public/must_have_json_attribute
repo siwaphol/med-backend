@@ -1,0 +1,202 @@
+1.Community And International Work
+2.Clinical Trials On Research And Scholarship
+3.Current Role At Stanford
+4.Honors And Awards
+5.Stanford Advisees
+6.Graduate And Fellowship Programs
+7.Current Clinical Interests
+8.Bio Science Program Affiliations
+9.Work Experience
+10.Lab Affiliations
+11.Courses
+12.TagCloud
+13.Supervisors
+14.Industry Relationships
+15.Clerkships
+16.Prior Year Courses
+17.Current Research And Scholarly Interests
+18.ServiceWork
+19.ContactInfo
+20.Professional Affiliations And Activities
+21.publication Summary
+22.Professional Interests
+23.Personal Interests
+24.Clinical Focus
+25.Links
+26.Membership Organizations
+27.Research Projects
+28.Independent Studies
+29.Postdoctoral Advisees
+30.Administrative Appointments
+31.primary Organization Name
+
+
+data
+1.displayName
+2.department (optional)
+3.section
+4."names": "legal": {
+                "firstName": "Manuel",
+                "middleName": "R",
+                "lastName": "Amieva"
+            },
+            "preferred": {
+                "firstName": "Manuel",
+                "middleName": "Ricardo",
+                "lastName": "Amieva"
+            }
+5.alias - "manuel-amieva"
+6.shortTitle - Associate Professor of Pediatrics (Infectious Diseases) and of Microbiology and Immunology
+7.longTitle - 
+8.titles - (text) Associate Professor, Pediatrics - Infectious Diseases, (html) Associate Professor, <a href='http://med.stanford.edu/pedsid/'> Pediatrics - Infectious Diseases</a>
+9."primaryContact": {
+            "label": "Academic",
+            "type": "primary",
+            "title": "Associate Professor of Pediatrics (Infectious Diseases) and of Microbiology and Immunology",
+            "name": "Manuel Amieva",
+            "email": "amieva@stanford.edu",
+            "officeName": null,
+            "address": null,
+            "address2": null,
+            "city": null,
+            "state": null,
+            "zip": null,
+            "phoneNumbers": [],
+            "fax": null
+        },
+10."alternateContact": null,
+11."clinicalContacts": [{
+            "label": null,
+            "type": null,
+            "title": "Associate Professor of Pediatrics (Infectious Diseases) and of Microbiology and Immunology",
+            "name": "Manuel Amieva",
+            "email": null,
+            "officeName": "Pediatric Infectious Disease",
+            "address": "730 Welch Rd 2nd Fl",
+            "address2": "MC 5884",
+            "city": "Palo Alto",
+            "state": "CA",
+            "zip": "94304",
+            "phoneNumbers": ["(650) 721-5805"],
+            "fax": "(650) 725-8040"
+        }]
+12."academicOffices": [{
+            "label": null,
+            "type": "academic",
+            "title": null,
+            "name": null,
+            "email": null,
+            "officeName": "office",
+            "address": "299 Campus Drive, Fairchild Bldg, Room D041b",
+            "address2": null,
+            "city": "Stanford",
+            "state": "California",
+            "zip": "94305",
+            "phoneNumbers": [],
+            "fax": null
+        }],
+13."affiliations": {
+            "capFaculty": true,
+            "capStaff": false,
+            "capPostdoc": false,
+            "capMdStudent": false,
+            "capMsStudent": false,
+            "capPhdStudent": false,
+            "physician": true
+        }
+14."currentResearchInterests": {
+            "terseText": {
+                "text": "Interactions between bacterial pathogens and the host epithelium",
+                "html": "Interactions between bacterial pathogens and the host epithelium"
+            },
+            "shortText": null,
+            "fullText": {
+                "text": "My laboratory studies the strategies pathogens utilize to colonize and subvert the epithelial barrier. We have focused on the epithelial junctions as a target for bacterial pathogens, since the cell-cell junctions serve as both a barrier to infection and also a major control site for epithelial function. In particular, we are interested in how the gastric pathogen Helicobater pylori may cause cancer by interfering with cell signaling at the epithelial junctions.  We are also studying how various bacteria cross and invade the epithelium. For example, we recently found that Listeria monocytogenes targets a specialized subset of cell-cell junctions at the tip of the intestinal villi to find its receptor for invasion. We are interested in determining whether this mode of gastrointestinal invasion of the epithelium is also used by other gastrointestinal pathogens.",
+                "html": "My laboratory studies the strategies pathogens utilize to colonize and subvert the epithelial barrier. We have focused on the epithelial junctions as a target for bacterial pathogens, since the cell-cell junctions serve as both a barrier to infection and also a major control site for epithelial function. In particular, we are interested in how the gastric pathogen Helicobater pylori may cause cancer by interfering with cell signaling at the epithelial junctions.  We are also studying how various bacteria cross and invade the epithelium. For example, we recently found that Listeria monocytogenes targets a specialized subset of cell-cell junctions at the tip of the intestinal villi to find its receptor for invasion. We are interested in determining whether this mode of gastrointestinal invasion of the epithelium is also used by other gastrointestinal pathogens."
+            }
+        }
+15."currentRoleAtStanford": null,
+16."graduateAndFellowshipPrograms": [{
+            "label": {
+                "text": "Microbiology and Immunology (Phd Program)",
+                "html": "<a href=\"http://medcatalog.stanford.edu/php/dept.php?DNo=785\">Microbiology and Immunology (Phd Program)</a>"
+            },
+            "description": "Microbiology and Immunology",
+            "url": "http://medcatalog.stanford.edu/php/dept.php?DNo=785",
+            "type": "Phd Program"
+        }],
+17."clinicalFocus": ["Infectious Diseases, Pediatric", "Pediatric Infectious Disease"]
+18."coursesTaught": [{
+            "academicYear": "2015-16",
+            "courses": [{
+                "label": {
+                    "text": "INDE 263 (Win)",
+                    "html": "<a href='http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=INDE 263: Microbiology and Infectious Diseases I&academicYear=20152016'>Microbiology and Infectious Diseases I</a><br/><span>INDE 263 (Win)</span>"
+                },
+                "title": "Microbiology and Infectious Diseases I",
+                "academicYear": "2015-16",
+                "quarter": "Win",
+                "url": "http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=INDE 263: Microbiology and Infectious Diseases I&academicYear=20152016"
+            }, {
+                "label": {
+                    "text": "INDE 264 (Spr)",
+                    "html": "<a href='http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=INDE 264: Microbiology and Infectious Diseases II&academicYear=20152016'>Microbiology and Infectious Diseases II</a><br/><span>INDE 264 (Spr)</span>"
+                },
+                "title": "Microbiology and Infectious Diseases II",
+                "academicYear": "2015-16",
+                "quarter": "Spr",
+                "url": "http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=INDE 264: Microbiology and Infectious Diseases II&academicYear=20152016"
+            }],
+            "independentStudyCourses": [{
+                "label": {
+                    "text": "MI 198 (Aut)",
+                    "html": "<a href='http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=MI 198: Directed Reading in Microbiology and Immunology&academicYear=20152016'>Directed Reading in Microbiology and Immunology</a><br/><span>MI 198 (Aut)</span>"
+                },
+                "title": "Directed Reading in Microbiology and Immunology",
+                "academicYear": "2015-16",
+                "quarter": "Aut",
+                "url": "http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=MI 198: Directed Reading in Microbiology and Immunology&academicYear=20152016"
+            }, {
+                "label": {
+                    "text": "MI 299 (Aut)",
+                    "html": "<a href='http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=MI 299: Directed Reading in Microbiology and Immunology&academicYear=20152016'>Directed Reading in Microbiology and Immunology</a><br/><span>MI 299 (Aut)</span>"
+                },
+                "title": "Directed Reading in Microbiology and Immunology",
+                "academicYear": "2015-16",
+                "quarter": "Aut",
+                "url": "http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=MI 299: Directed Reading in Microbiology and Immunology&academicYear=20152016"
+            }]
+        }]
+19."internetLinks": [{
+            "type": "Lab Site",
+            "label": {
+                "text": "Amieva Lab Website",
+                "html": "<a href='http://amievalab.stanford.edu'>Amieva Lab Website</a>"
+            },
+            "url": "http://amievalab.stanford.edu",
+            "contentType": null,
+            "lastModified": null
+        }],
+20.advisees
+21."stanfordAdvisors": [],
+22."supervisors": [],
+23."presentations": [],
+24."projects": [],
+25."researchProjects": [],
+26."workExperience": [],
+27."education": [{
+            "label": {
+                "text": "Fellowship:Stanford University School of Medicine (2004) CA",
+                "html": "Fellowship:Stanford University School of Medicine (2004) CA"
+            },
+            "degree": null,
+            "organization": "Stanford University School of Medicine",
+            "fieldOfStudy": null,
+            "yearIssued": "2004"
+        }]
+        "Residency:Stanford University School of Medicine (1999) CA"
+        "Internship:Stanford University School of Medicine (1998) CA"
+        "Board Certification: Pediatric Infectious Disease, American Board of Pediatrics (2005)"
+28."postdoctoralAdvisees"
+29.publications
+30.

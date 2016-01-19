@@ -1,5 +1,10 @@
 <?php
 
+Route::get('browse', function ()
+{
+    return view('frontend.browse');
+});
+
 Route::group(['middleware' => 'web'], function() {
     /**
      * Switch between the included languages
