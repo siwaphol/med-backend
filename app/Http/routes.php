@@ -1,8 +1,30 @@
 <?php
 
+use Illuminate\Http\Request;
+
 Route::get('browse', function ()
 {
-    return view('frontend.browse');
+    $profiles = App\UserProfile::all();
+    return view('frontend.browse', compact('profiles'));
+});
+
+Route::get('profile', function ()
+{
+    return view('frontend.profile');
+});
+
+Route::get('api/profile', function (Request $request)
+{
+    $defaultPerPage = 10;
+    $defaultPage = 1;
+
+    if(!empty($request->input('per_page')) && (int)$request->input('per_page')>$defaultPerPage){
+        $users = App\UserProfile::paginate((int)$request->input('per_page'));
+    }else{
+        $users = App\UserProfile::paginate($defaultPerPage);
+    }
+
+    return $users;
 });
 
 Route::group(['middleware' => 'web'], function() {
