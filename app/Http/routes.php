@@ -8,7 +8,7 @@ Route::get('browse', function ()
     return view('frontend.browse', compact('profiles'));
 });
 
-Route::get('profile', function ()
+Route::get('profile/{id}', function ($id)
 {
     return view('frontend.profile');
 });

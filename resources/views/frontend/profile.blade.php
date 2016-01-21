@@ -8,11 +8,7 @@
     <meta charset="utf-8">
     <title>Nima Aghaee Pour | Stanford Medicine Profiles</title>
     <meta name="description" content="Nima Aghaee Pour is on CAP Network. CAP Network is a virtual workspace, to support collaboration among faculty, graduate students, postdocs and staff.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-	    
-	      <link rel="canonical" href='https://med.stanford.edu/profiles/nima-aghaee-pour' />
-	    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
 	  
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
     <link rel="stylesheet" href="{{asset('css/main_alt1.css')}}">

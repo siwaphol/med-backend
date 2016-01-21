@@ -6,7 +6,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
-    <title>Browse School of Medicine | Stanford Medicine Profiles</title>
+    <title>Browse Page</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -30,8 +30,8 @@
       </span>
 
       <a class="brand" href="#">
-        <span class="stanford-logo" title="Stanford School of Medicine">Stanford School of Medicine</span>
-        <span class="cap-network-logo">CAP Profiles</span>
+        <span class="my-logo">Logo |</span>
+        <span class="second-logo">Profiles</span>
       </a>
       
       <div class="nav-sidebar hidden-phone">
@@ -41,20 +41,6 @@
   <button class="icon-search" type="submit" name="search" title="Search"></button>
 </form>
         </div>
-
-        <ul class="nav pull-right intranet-link use-link-icons">
-          <li>
-            <a href="/profiles/browse" class="browse-link ">Browse</a>
-          </li>
-          <li class="divider-vertical"></li>
-          <li>
-            <a href="#" id="stanfordOnlyUrl" rel="nofollow">
-              <i class="icon-som-grey"></i>
-              <span>View Stanford-Only Results</span>
-              <i class="icon-arrow-right"></i>
-            </a>
-          </li>
-        </ul>
       </div>      
     </div>
   </div>
@@ -72,9 +58,8 @@
   <div class="row-fluid">
     <section class="card span8">
          <div id="browseListContent">
-          <h1><span class="loading">School of Medicine</span></h1>
+          <h1><span class="loading">Department of Microbiology</span></h1>
 <hr/>
-<h2 class="subhead">Showing 1-10 of 112 Results</h2>
 
 {{--<profiles list="{{json_encode($profiles)}}"></profiles>--}}
 <profiles></profiles>
@@ -87,27 +72,27 @@
 <div id="filterItems" class="accordian">
     <div class="filter-group accordion-group">
   <h2 class="accordion-heading">
-    <a class="accordian-toggle" href="/profiles/browse?org=school-of-medicine/microbiology-immunology">All Profiles</a>
+    <a class="accordian-toggle" href="{{url('/browse')}}">All Profiles</a>
   </h2>
   <div class="accordian-body">
     <ul class="unstyled accordian-inner affiliation">
         <li class=" ">
-            <a href="/profiles/browse?affiliations=capFaculty&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?affiliations=capFaculty">
               Faculty and Teaching Staff
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?affiliations=capStaff&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?affiliations=capStaff">
               Staff
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?affiliations=capPostdoc&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?affiliations=capPostdoc">
               Postdocs
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?affiliations=capMdStudent,capMsStudent,capPhdStudent&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?affiliations=capMdStudent,capMsStudent,capPhdStudent">
               Graduate Students
             </a>
         </li>
@@ -116,155 +101,137 @@
 </div>
     <div class="filter-group accordion-group">
   <h2 class="accordion-heading">
-    <a class="accordian-toggle" href="/profiles/browse?org=school-of-medicine/microbiology-immunology">Last Name</a>
+    <a class="accordian-toggle" href="/profiles/browse">Last Name</a>
   </h2>
   <div class="accordian-body">
     <ul class="unstyled accordian-inner lastInitial">
         <li class=" ">
-            <a href="/profiles/browse?name=a&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=a">
               A
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=b&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=b">
               B
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=c&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=c">
               C
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=d&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=d">
               D
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=e&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=e">
               E
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=f&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=f">
               F
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=g&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=g">
               G
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=h&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=h">
               H
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=i&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=i">
               I
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=j&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=j">
               J
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=k&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=k">
               K
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=l&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=l">
               L
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=m&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=m">
               M
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=n&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=n">
               N
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=o&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=o">
               O
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=p&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=p">
               P
             </a>
         </li>
         <li class=" ">
-            <span>Q</span>
+          <a href="/profiles/browse?name=q">
+           Q
+          </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=r&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=r">
               R
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=s&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=s">
               S
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=t&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=t">
               T
             </a>
         </li>
         <li class=" ">
-            <span>U</span>
+          <a href="/profiles/browse?name=U">
+            U
+          </a>   
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=v&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=v">
               V
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=w&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=w">
               W
             </a>
         </li>
         <li class=" ">
-            <span>X</span>
+            <a href="/profiles/browse?name=x">X</a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=y&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=y">
               Y
             </a>
         </li>
         <li class=" ">
-            <a href="/profiles/browse?name=z&amp;org=school-of-medicine/microbiology-immunology">
+            <a href="/profiles/browse?name=z">
               Z
             </a>
-        </li>
-    </ul>
-  </div>
-</div>
-    <div class="filter-group accordion-group">
-  <h2 class="accordion-heading">
-    <a class="accordian-toggle" href="/profiles/browse">School of Medicine</a>
-  </h2>
-  <div class="accordian-body">
-    <ul class="unstyled accordian-inner org">
-        <li class="selected children">
-            <i class="icon-arrow-left"></i>
-            <a href="/profiles/browse">
-              Microbiology &amp; Immunology
-            </a>
-            <ul class="unstyled">
-                <li class=" ">
-                    <a href="/profiles/browse?org=school-of-medicine/microbiology-immunology/baxter-laboratory">
-                      Baxter Laboratory
-                    </a>
-                </li>
-            </ul>
         </li>
     </ul>
   </div>
@@ -280,6 +247,7 @@
     </div>
 
     <template id="profile-template">
+      <h2 class="subhead">Showing @{{from}}-@{{to}} of @{{total}} Results</h2>
       <ul class="unstyled list-items">
         <li v-for="profile in list">
           <div class="mini-profile media">
@@ -287,7 +255,7 @@
               <img class="pull-left" src="" alt="" data-empty-src="{{asset('images/profile.png')}}" />
             </a>
             <div class="media-body">
-              <a href="" class="media-heading">
+              <a href="profile/@{{profile.id}}" class="media-heading">
                 <h4>@{{profile.first_name_en}} @{{profile.last_name_en}}</h4>
                 <h5>@{{profile.position}}</h5>
               </a>
@@ -302,18 +270,18 @@
       <div id="pagination">
         <div class="btn-toolbar btn-block">
           <div class="btn-group ">
-            <a class="btn btn-small btn-first-page disabled" href="#go-to-first-pagination">
+            <a class="btn btn-small btn-first-page" @click="firstPageClick">
               <span class="hidden-phone">First</span>
               <span class="hidden-desktop hidden-tablet icon-double-angle-left"></span>
             </a>
           </div>
           <div class="btn-group">
-            <a class="btn btn-small btn-previous-page disabled" href="#go-to-prev-page"><i class="icon-chevron-left"></i></a>
-            <a class="btn btn-small btn-page-jumper" rel="popover">@{{currentPage}}/@{{totalPage}} (current/all)</a>
-            <a class="btn btn-small btn-next-page " href="#go-to-next-page"><i class="icon-chevron-right"></i></a>
+            <a class="btn btn-small btn-previous-page"  @click="prevClick"><i class="icon-chevron-left"></i></a>
+            <a class="btn btn-small btn-page-jumper" @click="preventDef" rel="popover">@{{currentPage}}/@{{totalPage}}</a>
+            <a class="btn btn-small btn-next-page " @click="nextClick"><i class="icon-chevron-right"></i></a>
           </div>
           <div class="btn-group">
-            <a class="btn btn-small btn-last-page " href="#go-to-last-pagination">
+            <a class="btn btn-small btn-last-page " @click="lastPageClick">
               <span class="hidden-phone">Last</span>
               <span class="hidden-desktop hidden-tablet icon-double-angle-right"></span>
             </a>
@@ -330,7 +298,7 @@
               <li><a href="#this-should-trigger-50-per-page">50</a></li>
               <li><a href="#this-should-trigger-100-per-page">100</a></li>
             </ul> -->
-            <select>
+            <select @change="perPageChange" id="per-page-select">
               <option value="10">10 Results / Page</option>
               <option value="20">20 Results / Page</option>
               <option value="50">50 Results / Page</option>
@@ -349,25 +317,86 @@
   var profileCom = Vue.component('profiles', {
     template: '#profile-template',
 
-    // props: ['list'],
-
     data: function () {
       return {
         list: [],
         totalPage: 0,
-        currentPage: 0
+        currentPage: 1,
+        perPage: 10,
+        from: 0,
+        to: 0,
+        total: 0,
+        prevClick: function (e) {
+          if(this.currentPage <= 1){
+            e.preventDefault();
+            console.log('prevClick first if', this.currentPage);
+          }else{
+            this.currentPage -= 1;
+            this.pageReCreate();
+          }
+        }.bind(this),
+        nextClick: function (e) {
+          if(this.currentPage >= this.totalPage){
+            e.preventDefault();
+            console.log('nextClick if current: ', this.currentPage, ' total:', this.totalPage);
+          }else{
+            this.currentPage += 1;
+            this.pageReCreate();
+          }
+        }.bind(this),
+        firstPageClick: function (e) {
+          if(this.currentPage <= 1){
+            e.preventDefault();
+            console.log('firstpageClick first if', this.currentPage);
+          }else{
+            this.currentPage = 1;
+            this.pageReCreate();
+          }
+        }.bind(this),
+        lastPageClick: function (e) {
+          if(this.currentPage >= this.totalPage){
+            e.preventDefault();
+            console.log('lastPageClick if current: ', this.currentPage, ' total:', this.totalPage);
+          }else{
+            this.currentPage = this.totalPage;
+            this.pageReCreate();
+          }
+        }.bind(this),
+        preventDef: function (e) {
+          e.preventDefault();
+        },
+        perPageChange: function (e) {
+          var p_val = 10;
+          $( "#per-page-select option:selected" ).each(function() {
+            p_val = parseInt($(this).val());
+          });
+          this.perPage = p_val;
+          this.pageReCreate();
+        }.bind(this),
+        pageReCreate: function () {
+          $.getJSON('{{url('api/profile')}}', {page: this.currentPage, per_page: this.perPage}, function (profiles) {
+            this.list = profiles.data;
+            this.totalPage = profiles.last_page;
+            this.currentPage = profiles.current_page;
+            this.from = profiles.from;
+            this.to = profiles.to;
+            this.total = profiles.total;
+          }.bind(this));
+        }
       };
     },
 
-    // created() {
-    //   // this.list = JSON.parse(this.list);
-    //   this.list
-    // },
     created: function  () {
-      $.getJSON('{{url('api/profile')}}', function (profiles) {
+      $.getJSON('{{url('api/profile')}}', {page: this.currentPage, per_page: this.perPage}, function (profiles) {
         this.list = profiles.data;
         this.totalPage = profiles.last_page;
         this.currentPage = profiles.current_page;
+        this.from = profiles.from;
+        this.to = profiles.to;
+        this.total = profiles.total;
+      }.bind(this))
+      .fail(function (data) {
+        this.pageReCreate();
       }.bind(this));
     },
 
@@ -381,6 +410,7 @@
   var vm = new Vue({
     el: 'body'
   });
+
   </script>
   </body>
 </html>
