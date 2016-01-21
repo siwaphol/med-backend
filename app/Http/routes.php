@@ -10,6 +10,24 @@ Route::get('browse', function ()
 
 Route::get('profile/{id}', function ($id)
 {
+    $user = App\UserProfile::find($id);
+    $userEducations = App\UserEducation::where('user_profile_id', $id)->get();
+
+    return view('frontend.profile', compact('user','userEducations'));
+});
+
+Route::get('profile/{id}/edit', function ($id)
+{
+    $user = App\UserProfile::find($id);
+    // dont forget to create Form::model
+    $userEducations = App\UserEducation::where('user_profile_id', $id)->get();
+
+    return view('frontend.profile', compact('user','userEducations'));
+});
+
+Route::get('profile/create', function ()
+{
+    // dont forget to create Form::open
     return view('frontend.profile');
 });
 
